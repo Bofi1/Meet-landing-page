@@ -938,6 +938,21 @@ video {
   opacity: 0.2;
 }
 
+.hover\:bg-\[\#4C96A9\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(76 150 169 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#58adc2\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 173 194 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#9e72d4\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(158 114 212 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 440px){
   .textTablet\:mb-10{
     margin-bottom: 2.5rem;
