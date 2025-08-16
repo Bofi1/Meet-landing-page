@@ -568,6 +568,14 @@ video {
   top: 0px;
 }
 
+.left-\[-0px\]{
+  left: -0px;
+}
+
+.right-0{
+  right: 0px;
+}
+
 .z-\[999\]{
   z-index: 999;
 }
@@ -637,6 +645,14 @@ video {
   margin-top: 50px;
 }
 
+.ml-\[-200px\]{
+  margin-left: -200px;
+}
+
+.ml-\[200px\]{
+  margin-left: 200px;
+}
+
 .flex{
   display: flex;
 }
@@ -673,6 +689,10 @@ video {
   max-height: 300px;
 }
 
+.max-h-\[250px\]{
+  max-height: 250px;
+}
+
 .w-\[2px\]{
   width: 2px;
 }
@@ -683,6 +703,30 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[1920px\]{
+  width: 1920px;
+}
+
+.w-\[1440px\]{
+  width: 1440px;
+}
+
+.w-\[1600px\]{
+  width: 1600px;
+}
+
+.w-\[1700px\]{
+  width: 1700px;
+}
+
+.w-\[1750px\]{
+  width: 1750px;
+}
+
+.max-w-\[1920px\]{
+  max-width: 1920px;
 }
 
 .scale-110{
@@ -935,6 +979,45 @@ video {
 }
 
 @media (min-width: 1280px){
+  .xl\:my-\[100px\]{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .xl\:mx-20{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .xl\:mx-\[120px\]{
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .xl\:mt-\[100px\]{
+    margin-top: 100px;
+  }
+
+  .xl\:mt-\[150px\]{
+    margin-top: 150px;
+  }
+
+  .xl\:mt-\[120px\]{
+    margin-top: 120px;
+  }
+
+  .xl\:mt-16{
+    margin-top: 4rem;
+  }
+
+  .xl\:mt-\[80px\]{
+    margin-top: 80px;
+  }
+
+  .xl\:mt-0{
+    margin-top: 0px;
+  }
+
   .xl\:flex{
     display: flex;
   }
@@ -947,6 +1030,37 @@ video {
     flex-direction: row;
   }
 
+  .xl\:flex-col{
+    flex-direction: column;
+  }
+
+  .xl\:items-center{
+    align-items: center;
+  }
+
+  .xl\:justify-center{
+    justify-content: center;
+  }
+
+  .xl\:py-\[\]{
+    padding-top: ;
+    padding-bottom: ;
+  }
+
+  .xl\:py-\[150px\]{
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .xl\:py-\[120px\]{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .xl\:text-start{
+    text-align: start;
+  }
+
   .xl\:text-7xl{
     font-size: 4.5rem;
     line-height: 1;
@@ -955,5 +1069,15 @@ video {
   .xl\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 }
